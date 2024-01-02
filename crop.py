@@ -65,7 +65,7 @@ class rs_data_prossing:
         image_save_path = os.path.join(work_dir, "train")
         os.makedirs(image_save_path, exist_ok=True)
 
-        mask_save_path = os.path.join(work_dir, "val")
+        mask_save_path = os.path.join(work_dir, "lables")
         os.makedirs(mask_save_path, exist_ok=True)
 
         # 保存images和masks裁剪后的图像
