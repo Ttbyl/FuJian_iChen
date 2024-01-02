@@ -7,7 +7,8 @@
 /dataSources/
 /dataSources.local.xml
 
-/toUser
+/toUser/
+
 *.tif
 *.zip
 *.png
