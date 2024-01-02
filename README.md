@@ -1,4 +1,3 @@
-# FuJian_iChen
 ## 遥感语义分割比赛
 
 ### 1、[比赛地址](https://datacontest.fjbdg.com.cn/v3/cmptDetail.html?id=878)
