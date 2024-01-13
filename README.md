@@ -8,7 +8,11 @@
 
 ### 3、[比赛提交细则](https://pu-datacastle.obs.cn-north-1.myhuaweicloud.com/%E6%A8%A1%E5%9E%8B%E6%8F%90%E4%BA%A4%E7%A4%BA%E4%BE%8B.html)
 
+### 4、项目介绍
 
+项目地址位于4090 ubuntu系统`/home/msi2/wzb/FuJian`
+
+[git教程](https://www.bilibili.com/video/BV1r3411F7kn/?spm_id_from=333.337.search-card.all.click&vd_source=764979a4787f7e93c23804b906ecf5ac)
 
 `corp.py文件是用于图像处理，将大的遥感影像划分为512*512小的图像`
 
@@ -29,6 +33,3 @@ class Config:
     )
 ```
 
-### 4、项目介绍
-
-项目地址位于4090 ubuntu系统`/home/msi2/wzb/FuJian`
