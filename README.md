@@ -29,3 +29,6 @@ class Config:
     )
 ```
 
+### 4、项目介绍
+
+项目地址位于4090 ubuntu系统`/home/msi2/wzb/FuJian`
