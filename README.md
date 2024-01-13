@@ -12,6 +12,17 @@
 
 项目地址位于4090 ubuntu系统`/home/msi2/wzb/FuJian`
 
+`FuJian_iChen`
+
+**├── crop.py** 
+**├── data**  # 数据
+**│   ├── FuJian_img1**
+**│   └── FuJian_img2**
+**├── README.md**
+**└── toUser** # 官方数据
+    **├── submit_example.zip** # 提交示例
+    **└── train**
+
 [git教程](https://www.bilibili.com/video/BV1r3411F7kn/?spm_id_from=333.337.search-card.all.click&vd_source=764979a4787f7e93c23804b906ecf5ac)
 
 `corp.py文件是用于图像处理，将大的遥感影像划分为512*512小的图像`
