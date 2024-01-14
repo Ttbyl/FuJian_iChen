@@ -21,7 +21,7 @@
 **├── README.md**  
 **└── toUser** # 官方数据  
     **├── submit_example.zip** # 提交示例  
-    **└── train** 
+    **└── train**  
 
 [git教程](https://www.bilibili.com/video/BV1r3411F7kn/?spm_id_from=333.337.search-card.all.click&vd_source=764979a4787f7e93c23804b906ecf5ac)
 
@@ -32,7 +32,8 @@ class Config:
 
     image_path = r"toUser/toUser/train/img1/img1.tif" # 配置原始影像的地址
     mask_path = r"toUser/toUser/train/img1/img1_ mask.tif" # 配置mask影像的地址
-    size = 512 # 设置大小，可以为int也可以为tuple
+    size = 512 # 设置大小，可以为int也可以为tuple,such as: 512 or (512,512)
+    # 数据size大小可以和mmseg训练所用到的大小对齐，可以采用VOC数据集格式也可以用其他
 
     crop = dict(
         size=size,
@@ -43,4 +44,5 @@ class Config:
         # 设置是否丢弃不足size的块
     )
 ```
+
 
